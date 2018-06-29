@@ -1,0 +1,28 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "description": "First App",
+  "scripts": {
+    "postinstall": "remotedev-debugger --hostname localhost --port 5678 --injectserver"
+  },
+  "remotedev": {
+    "hostname": "localhost",
+    "port": 5678
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "expo": "^28.0.0",
+    "react": "^16.4.1",
+    "react-native": "^0.48.4",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6",
+    "remote-redux-devtools": "^0.5.12",
+    "remotedev-rn-debugger": "^0.8.3"
+  },
+  "Author": "Michelle Kong"
+}
